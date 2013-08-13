@@ -3,6 +3,7 @@ require 'json'
 
 begin
   response = RestClient.put 'http://alytics.herokuapp.com/taps', { 'nid' => 'fakenid', 'on' => 'fakeon', 'off' => 'fakeoff' }.to_json,  :content_type => :json, :accept => :json
+  puts response
 rescue => e
   puts e.response
 end
