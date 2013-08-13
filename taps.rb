@@ -1,4 +1,9 @@
 require 'sinatra'
+require 'json'
+
+get '/' do
+  "Hello World!"
+end
 
 put '/taps' do
   data = JSON.parse(request.body.string)
