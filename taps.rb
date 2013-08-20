@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  "Hello World!"
+  "Bryan and Jef are both fucking petarded"
 end
 
 put '/taps' do
