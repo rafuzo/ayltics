@@ -10,7 +10,7 @@ cIO = CassandraIO.new(
                :accountId => '57c15b37-7d75-49e5-bbbc-dc3c775a9acc') 
 
 get '/' do
-  "Bryan and Jef are both fucking petarded"
+  "You just got slash."
 end
 
 put '/taps' do
