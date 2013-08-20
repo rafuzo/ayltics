@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    httpclient (2.3.4.1)
     json (1.7.7)
     mime-types (1.24)
     rack (1.5.2)
@@ -18,6 +19,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  httpclient
   json
   rest-client
   sinatra
