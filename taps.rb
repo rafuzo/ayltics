@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'json'
-require 'cassandraio'
+require './cassandraio'
 
 cIO = CassandraIO.new(
    :heroku => 'api.cassandra.io',
