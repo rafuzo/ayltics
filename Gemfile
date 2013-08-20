@@ -1,6 +1,7 @@
-ruby '2.0.0'
+ruby '1.8.7'
 
 source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'json'
+gem 'cassandraio'
