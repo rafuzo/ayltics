@@ -10,7 +10,7 @@ cIO = CassandraIO.new(
                :accountId => '57c15b37-7d75-49e5-bbbc-dc3c775a9acc') 
 
 get '/' do
-  "Welcome to sudtistic!"
+  "Welcome to sudtistic - another change!"
 end
 
 put '/taps' do
