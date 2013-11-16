@@ -10,7 +10,7 @@ cIO = CassandraIO.new(
                :accountId => '57c15b37-7d75-49e5-bbbc-dc3c775a9acc') 
 
 get '/' do
-  "You just got slash."
+  "You just got slash. More."
 end
 
 put '/taps' do
@@ -20,7 +20,6 @@ put '/taps' do
   else
     status 200
     body(data['nid'])
- # booty booty booty
 # yo
   end
 end
